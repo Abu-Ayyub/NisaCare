@@ -1,5 +1,5 @@
 import appointment_img from './appointment_img.png'
-import header_img from './header_img.png'
+import header_img2 from './header_img2.png'
 import group_profile from './group_profile.png'
 import profile_pic from './profile_pic.png'
 import contact_image from './contact_image.png'
@@ -41,7 +41,7 @@ import nisacareLogo from './nisacare-logo (2).svg'
 
 export const assets = {
     appointment_img,
-    header_img,
+    header_img2,
     group_profile,
     nisacareLogo,
     chats_icon,
