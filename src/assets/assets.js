@@ -14,6 +14,8 @@ import info_icon from './info_icon.svg'
 import upload_icon from './upload_icon.png'
 import stripe_logo from './stripe_logo.png'
 import razorpay_logo from './razorpay_logo.png'
+import banner_img from './banner_img.png'
+import banner_img2 from './banner_img2.jpg'
 import pic1 from './faceless_profile_pic.jpg'
 import doc1 from './doc1.png'
 import doc2 from './doc2.png'
@@ -33,7 +35,7 @@ import doc15 from './doc15.png'
 import Dermatologist from './Dermatologist.svg'
 import Gastroenterologist from './Gastroenterologist.svg'
 import General_physician from './General_physician.svg'
-import Gynecologist from './Gynecologist.svg'
+import hijab_illustration from './hijab_illustration.svg'
 import Neurologist from './Neurologist.svg'
 import Pediatricians from './Pediatricians.svg'
 import nisacareLogo from './nisacare-logo (2).svg'
@@ -58,7 +60,9 @@ export const assets = {
     stripe_logo,
     razorpay_logo,
     pic1,
-    
+    hijab_illustration,
+    banner_img,
+    banner_img2
 }
 
 export const specialityData = [
@@ -68,7 +72,7 @@ export const specialityData = [
     },
     {
         speciality: 'Gynecologist',
-        image: Gynecologist
+        image: hijab_illustration
     },
     {
         speciality: 'Dermatologist',
@@ -91,212 +95,215 @@ export const specialityData = [
 export const doctors = [
     {
         _id: 'doc1',
-        name: 'Dr. Richard James',
+        name: 'Dr. Aisha Bello',
         image: doc1,
         speciality: 'General physician',
-        degree: 'MBBS',
+        degree: 'MBBS, University of Ilorin',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        about: 'Dr. Aisha is a general physician who focuses on everyday health concerns, from fevers and infections to blood pressure and diabetes checks. She believes in taking time to listen so every patient leaves with a clear plan.',
+        fees: 5000,
         address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Al-Noor Specialist Hospital, 12 Ahmadu Bello Way',
+            line2: 'GRA, Ilorin, Kwara State'
         }
     },
     {
         _id: 'doc2',
-        name: 'Dr. Emily Larson',
+        name: 'Dr. Fatima Abdullahi',
         image: doc2,
         speciality: 'Gynecologist',
-        degree: 'MBBS',
+        degree: 'MBBS, Ahmadu Bello University, Zaria',
         experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 60,
+        about: 'Dr. Fatima provides care for women at every stage of life, including routine checkups, antenatal care and family planning. She is known for a calm, respectful approach that helps patients feel at ease.',
+        fees: 8000,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Crescent Care Hospital, 27 Aminu Kano Crescent',
+            line2: 'Wuse II, Abuja, FCT'
         }
     },
     {
         _id: 'doc3',
-        name: 'Dr. Sarah Patel',
+        name: 'Dr. Zainab Yusuf',
         image: doc3,
         speciality: 'Dermatologist',
-        degree: 'MBBS',
+        degree: 'MBBS, Bayero University Kano',
         experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 30,
+        about: 'Dr. Zainab Yusuf treats skin, hair and nail conditions such as acne, eczema and fungal infections. She focuses on simple, affordable treatment plans suited to the Nigerian climate.',
+        fees: 6000,
         address: {
-            line1: '37th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Madina Specialist Hospital, 37 Zaria Road',
+            line2: 'Gwale, Kano, Kano State'
         }
     },
     {
         _id: 'doc4',
-        name: 'Dr. Christopher Lee',
+        name: 'Dr. Maryam Ibrahim',
         image: doc4,
         speciality: 'Pediatricians',
-        degree: 'MBBS',
+        degree: 'MBBS, University of Lagos',
         experience: '2 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 40,
+        about: 'Dr. Maryam cares for babies, children and teenagers, from routine immunisations to childhood infections. Parents appreciate her gentle way with young patients and her clear advice on growth and nutrition.',
+        fees: 5000,
         address: {
-            line1: '47th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Rahma Children\'s Hospital, 47 Adeola Odeku Street',
+            line2: 'Victoria Island, Lagos, Lagos State'
         }
     },
     {
         _id: 'doc5',
-        name: 'Dr. Jennifer Garcia',
+        name: 'Dr. Hauwa Sani',
         image: doc5,
         speciality: 'Neurologist',
-        degree: 'MBBS',
+        degree: 'MBBS, Usmanu Danfodiyo University, Sokoto',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        about: 'Dr. Hauwa diagnoses and manages conditions of the brain and nerves, including headaches, epilepsy and stroke recovery. She explains each step of treatment clearly so patients and families know what to expect.',
+        fees: 10000,
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Nur Medical Centre, 57 Sultan Abubakar Road',
+            line2: 'Sokoto, Sokoto State'
         }
     },
     {
         _id: 'doc6',
-        name: 'Dr. Andrew Williams',
+        name: 'Dr. Khadijah Lawal',
         image: doc6,
         speciality: 'Neurologist',
-        degree: 'MBBS',
+        degree: 'MBBS, University of Ibadan',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        about: 'Dr. Khadijah specialises in migraines, dizziness, nerve pain and sleep-related disorders. She combines careful examination with practical lifestyle guidance to help patients manage long-term conditions.',
+        fees: 10000,
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Hikma Specialist Hospital, 57 Ring Road',
+            line2: 'Challenge, Ibadan, Oyo State'
         }
     },
     {
         _id: 'doc7',
-        name: 'Dr. Christopher Davis',
+        name: 'Dr. Amina Garba',
         image: doc7,
         speciality: 'General physician',
-        degree: 'MBBS',
+        degree: 'MBBS, Ahmadu Bello University, Zaria',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        about: 'Dr. Amina offers family medicine for all ages, with a focus on preventive care, vaccinations and managing chronic conditions. She enjoys building long-term relationships with the families she looks after.',
+        fees: 5000,
         address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Amanah Hospital, 17 Ali Akilu Road',
+            line2: 'Kaduna, Kaduna State'
         }
     },
     {
         _id: 'doc8',
-        name: 'Dr. Timothy White',
+        name: 'Dr. Rukayya Danjuma',
         image: doc8,
         speciality: 'Gynecologist',
-        degree: 'MBBS',
+        degree: 'MBBS, University of Maiduguri',
         experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 60,
+        about: 'Dr. Rukayya focuses on safe pregnancy and childbirth, as well as menstrual and fertility concerns. She is passionate about maternal health education in her community.',
+        fees: 8000,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Shifa Women\'s Hospital, 27 Baga Road',
+            line2: 'Maiduguri, Borno State'
         }
     },
     {
         _id: 'doc9',
-        name: 'Dr. Ava Mitchell',
+        name: 'Dr. Halima Suleiman',
         image: doc9,
         speciality: 'Dermatologist',
-        degree: 'MBBS',
+        degree: 'MBBS, Obafemi Awolowo University',
         experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 30,
+        about: 'Dr. Halima helps patients with acne, pigmentation, allergies and common skin infections. She is dedicated to safe, evidence-based skincare advice that fits every budget.',
+        fees: 6000,
         address: {
-            line1: '37th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Safe Haven Hospital, 37 Allen Avenue',
+            line2: 'Ikeja, Lagos, Lagos State'
         }
     },
     {
         _id: 'doc10',
-        name: 'Dr. Jeffrey King',
+        name: 'Dr. Safiya Musa',
         image: doc10,
         speciality: 'Pediatricians',
-        degree: 'MBBS',
+        degree: 'MBBS, University of Abuja',
         experience: '2 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 40,
+        about: 'Dr. Safiya cares for newborns and young children, with a special interest in child nutrition and development. She works closely with parents to catch problems early and keep children healthy.',
+        fees: 5000,
         address: {
-            line1: '47th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Mercy Gate Hospital, 47 Gimbiya Street',
+            line2: 'Garki, Abuja, FCT'
         }
     },
     {
         _id: 'doc11',
-        name: 'Dr. Zoe Kelly',
+        name: 'Dr. Ramatu Abubakar',
         image: doc11,
         speciality: 'Neurologist',
-        degree: 'MBBS',
+        degree: 'MBBS, University of Jos',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        about: 'Dr. Ramatu treats seizure disorders, nerve problems and memory difficulties in adults and older patients. Her patient, step-by-step approach helps families understand and cope with long-term conditions.',
+        fees: 10000,
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Plateau Care Hospital, 57 Rayfield Road',
+            line2: 'Jos, Plateau State'
         }
     },
     {
         _id: 'doc12',
-        name: 'Dr. Patrick Harris',
+        name: 'Dr. Nafisa Balogun',
         image: doc12,
         speciality: 'Neurologist',
-        degree: 'MBBS',
+        degree: 'MBBS, Lagos State University',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        about: 'Dr. Nafisa focuses on stroke prevention, head injury follow-up and movement disorders. She emphasises early diagnosis and rehabilitation so patients can return to daily life sooner.',
+        fees: 10000,
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Zamzam Specialist Hospital, 57 Awolowo Road',
+            line2: 'Ikoyi, Lagos, Lagos State'
         }
     },
     {
         _id: 'doc13',
-        name: 'Dr. Chloe Evans',
+        name: 'Dr. Hadiza Mohammed',
         image: doc13,
         speciality: 'General physician',
-        degree: 'MBBS',
+        degree: 'MBBS, Bayero University Kano',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        about: 'Dr. Hadiza provides general consultations, health screenings and treatment for common illnesses such as malaria and typhoid. She is known for clear explanations and practical, affordable advice.',
+        fees: 5000,
         address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Al-Amin Hospital, 17 Ibrahim Taiwo Road',
+            line2: 'Kano, Kano State'
         }
     },
     {
         _id: 'doc14',
-        name: 'Dr. Ryan Martinez',
+        name: 'Dr. Sakinah Raji',
         image: doc14,
         speciality: 'Gynecologist',
-        degree: 'MBBS',
+        degree: 'MBBS, University of Ilorin',
         experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 60,
+        about: 'Dr. Sakinah provides women\'s health services including antenatal care, cycle disorders and menopause support. She is committed to a private, comfortable and judgement-free consultation experience.',
+        fees: 8000,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Noor Maternity Hospital, 27 Taiwo Road',
+            line2: 'Ilorin, Kwara State'
         }
     },
     {
         _id: 'doc15',
-        name: 'Dr. Amelia Hill',
+        name: 'Dr. Maimuna Aliyu',
         image: doc15,
         speciality: 'Dermatologist',
-        degree: 'MBBS',
+        degree: 'MBBS, Ahmadu Bello University, Zaria',
         experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 30,
+        about: 'Dr. Maimuna treats eczema, hair loss and skin allergies, and offers guidance on daily skincare routines. She believes good skin health starts with simple habits and the right diagnosis.',
+        fees: 6000,
         address: {
-            line1: '37th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Baraka Medical Centre, 37 Constitution Road',
+            line2: 'Kaduna, Kaduna State'
         }
     },
+
+
 ]
+    

@@ -8,9 +8,10 @@ function Header() {
       {/* ----------- left side ----------- */}
       <div className='md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw]'>
 
-        <p className='text-3xl md:text-4xl lg:text-5xl text-white font-semibold leading-tight pl-6'>
-          Book Appointment<br />
-          With Trusted Doctors
+        <p className='text-3xl md:text-4xl lg:text-3xl text-white font-semibold leading-tight pl-6'>
+          Book Your Appointment Today<br />
+  with Doctors You Can Trust, Female Specialists Who Care
+          
         </p>
 
         <div className='flex flex-col md:flex-row items-center gap-3 text-white text-sm font-light'>
@@ -21,15 +22,15 @@ function Header() {
           />
 
           <p className='pl-6'>
-            Simply browse through our extensive list of trusted doctors,
+            Explore our network of trusted doctors and
             <br className='hidden sm:block' />
-            schedule your appointment hassle-free.
+             book your appointment without the stress.
           </p>
         </div>
 
         <a
           href='#speciality'
-          className='flex items-center gap-2 bg-white px-2 py-3 rounded-full text-gray-600 text-sm m-auto md:m-0 hover:scale-105 transition-all duration-300'
+          className='flex items-center gap-2 bg-[#C4D7ED] px-2 py-3 rounded-full text-gray-600 text-sm m-auto md:m-0 hover:scale-105 transition-all duration-300'
         >
           Book appointment
           <img
@@ -45,7 +46,7 @@ function Header() {
       <div className='md:w-1/2 relative'>
 
         <img
-          className='w-full md:absolute bottom-0 h-auto rounded-lg'
+          className='w-full md:absolute bottom-23 h-auto  rounded-lg object-cover'
           src={assets.header_img2}
           alt=''
         />
