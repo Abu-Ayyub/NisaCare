@@ -8,8 +8,8 @@ function Header() {
       {/* ----------- left side ----------- */}
       <div className='md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw]'>
 
-        <p className='text-3xl md:text-4xl lg:text-3xl text-white font-semibold leading-tight pl-6'>
-          Book Your Appointment Today<br />
+        <p className='text-xl md:text-4xl lg:text-3xl text-white font-semibold leading-tight pl-6'>
+          Book Your Appointment Today
   with Doctors You Can Trust, Female Specialists Who Care
           
         </p>
@@ -46,7 +46,7 @@ function Header() {
       <div className='md:w-1/2 relative'>
 
         <img
-          className='w-full md:absolute bottom-23 h-auto  rounded-lg object-cover'
+          className='w-full mb-8 md:absolute bottom-23 h-auto  rounded-lg object-cover'
           src={assets.header_img2}
           alt=''
         />
